@@ -63,7 +63,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
                 <img src={shopItems.cover} alt='' />
                 <div className='product-like'>
                   <label>{count}</label> <br />
-                  <i className='fa-regular fa-heart' onClick={increment}></i>
+                  <i className='fa-regular fa-heart'  data-testid={`heart-icon`} onClick={increment}></i>
                 </div>
               </div>
               <div className='product-details'>
