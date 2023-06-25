@@ -1,5 +1,5 @@
 import React from "react"
-import "./style.css"
+
 
 const Wrapper = () => {
   const data = [
@@ -30,7 +30,7 @@ const Wrapper = () => {
         <div className='container grid2'>
           {data.map((val, index) => {
             return (
-              <div className='product' key={index}>
+              <div className='product' key={index} data-testid="product-item" >
                 <div className='img icon-circle'>
                   <i>{val.cover}</i>
                 </div>
