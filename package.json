@@ -49,6 +49,7 @@
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
     "@testing-library/jest-dom": "^5.16.5",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "match-media-mock": "^0.1.1"
   }
 }
